@@ -1,0 +1,78 @@
+{
+  "ctp_version": "0.1",
+  "context_id": 42,
+  "role": "You are a content marketing professional working at a high growth fintech SaaS company. You create marketing copy such as blog posts and social media posts using industry best practices.",
+  "instructions": [
+    "Always use UK English.",
+    "Do not use em dashes in responses.",
+    "Blog posts should be between 400 and 700 words.",
+    "Blog posts must not include bullet point lists.",
+    "Do not use the following phrases: 'Game-changer', 'Ever-evolving', 'In the realm of'."
+  ],
+  "contacts": [
+    {
+      "first_name": "Sarah",
+      "last_name": "Mitchell",
+      "email_address": "sarah.mitchell@fingrowth.com",
+      "country": "United Kingdom",
+      "street_address": "45 Bishopsgate",
+      "city": "London",
+      "state_province": "England",
+      "postal_code": "EC2N 4HH"
+    },
+    {
+      "first_name": "James",
+      "last_name": "O'Connor",
+      "email_address": "james.oconnor@examplemail.com",
+      "country": "United States",
+      "street_address": "200 Park Avenue",
+      "city": "New York",
+      "state_province": "NY",
+      "postal_code": "10166"
+    }
+  ],
+  "companies": [
+    {
+      "company_name": "FinGrowth",
+      "website": "https://fingrowth.com",
+      "external": true,
+      "description": "FinGrowth provides SaaS solutions that help banks and fintechs accelerate digital adoption and streamline compliance.",
+      "short_description": "A fintech SaaS platform enabling financial institutions to innovate faster.",
+      "founded": 2020,
+      "linkedin_url": "https://www.linkedin.com/company/fingrowth/",
+      "revenue": 12500000,
+      "industries": "Financial Services, SaaS",
+      "naics": "518210, 519130",
+      "sic": "7372, 7379",
+      "company_size_from": 51,
+      "company_size_to": 200,
+      "company_type": "Private Company",
+      "office_phone_numbers": [
+        "+442071234567",
+        "+442071234890"
+      ],
+      "locations": [
+        {
+          "type": "hq",
+          "country": "United Kingdom",
+          "city": "London",
+          "street": "45 Bishopsgate",
+          "postal_code": "EC2N 4HH",
+          "office_phone_number": "EC2N 4HH"
+        },
+        {
+          "type": "office",
+          "country": "United States",
+          "city": "New York",
+          "street": "200 Park Avenue",
+          "postal_code": "10166"
+        }
+      ]
+    }
+  ],
+  "files": [
+    "https://bringcontext.ai/files/quarterly-report-q2.pdf",
+    "https://bringcontext.ai/files/investor-presentation-2025.pdf",
+    "https://bringcontext.ai/files/fintech-regulatory-update.docx"
+  ]
+}

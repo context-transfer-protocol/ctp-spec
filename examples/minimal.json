@@ -1,0 +1,15 @@
+{
+  "ctp_version": "0.2",
+  "context_id": 1,
+  "role": "You are a helpful assistant.",
+  "instructions": [
+    "Always respond in UK English.",
+    "Avoid using em dashes.",
+    "Keep answers clear and concise."
+  ],
+  "contacts": [],
+  "companies": [],
+  "files": [
+    "https://bringcontext.ai/files/sample-contract.pdf"
+  ]
+}

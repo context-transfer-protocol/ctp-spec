@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ctp.schema.json",
+  "title": "Context Transfer Protocol",
+  "type": "object",
+  "required": ["ctp_version", "context_id", "role", "instructions"],
+  "additionalProperties": false,
+  "properties": {
+    "ctp_version": { "type": "string" },
+    "context_id": { "oneOf": [{ "type": "string" }, { "type": "integer" }] },
+    "role": { "type": "string", "minLength": 1 },
+    "instructions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["first_name", "last_name", "email_address"],
+        "properties": {
+          "first_name": { "type": "string" },
+          "last_name": { "type": "string" },
+          "email_address": { "type": "string", "format": "email" },
+          "country": { "type": "string" },
+          "street_address": { "type": "string" },
+          "city": { "type": "string" },
+          "state_province": { "type": "string" },
+          "postal_code": { "type": "string" }
+        }
+      }
+    },
+    "companies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["company_name"],
+        "properties": {
+          "company_name": { "type": "string" },
+          "website": { "type": "string", "format": "uri" },
+          "external": { "type": "boolean" },
+          "description": { "type": "string" },
+          "short_description": { "type": "string" },
+          "founded": { "type": "integer" },
+          "linkedin_url": { "type": "string", "format": "uri" },
+          "revenue": { "type": "number" },
+          "industries": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          },
+          "naics": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          },
+          "sic": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "array", "items": { "type": "string" } }
+            ]
+          },
+          "company_size_from": { "type": "integer" },
+          "company_size_to": { "type": "integer" },
+          "company_type": { "type": "string" },
+          "office_phone_numbers": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["type", "country", "city", "street", "postal_code"],
+              "properties": {
+                "type": { "type": "string", "enum": ["hq", "office"] },
+                "country": { "type": "string" },
+                "city": { "type": "string" },
+                "street": { "type": "string" },
+                "postal_code": { "type": "string" },
+                "office_phone_number": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" }
+    }
+  }
+}
