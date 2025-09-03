@@ -25,3 +25,5 @@ A generic objects array is also under consideration. Each entry would include a 
 **Editor:** Gerard Donnelly  
 LinkedIn: https://www.linkedin.com/in/gerard-donnelly/  
 Contact: hello@context-transfer-protocol.org
+
+If you’re interested in helping shape the Context Transfer Protocol or contributing examples, schema improvements, or adapters, please reach out or open an issue — collaboration is very welcome.
