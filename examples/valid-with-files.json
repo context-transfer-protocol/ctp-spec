@@ -1,0 +1,11 @@
+{
+  "id": "01J5Y8N6QZP14R8V1G3X2QH3FQ",
+  "purpose": "handoff",
+  "ctp_version": "0.1.0",
+  "role": "You are a helpful assistant.",
+  "instructions": "Do not return bullet points in your responses.",
+  "files": [
+    "https://www.example.com/eyJfcmFpbHMiOnsiZGF0YSI6MiwicHVyIjoiYmxvYl9pZCJ9fQ==--3e49c0274e778f445c3a929b2fd46b7058bf5ef8/example.jpg",
+    "https://www.www.example.com/eyJfcmFpbHMiOnsiZGF0YSI6MywicHVyIjoiYmxvYl9pZCJ9fQ==--9610872cbedffd467e433f592632481fc14250c8/Salesforce%20Certification%20-%20Verify%20Credentials.pdf"
+  ]
+}

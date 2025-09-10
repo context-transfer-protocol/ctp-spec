@@ -1,0 +1,14 @@
+{
+  "name": "ctp-spec",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-cli": "^5.0.0"
+  },
+  "scripts": {
+    "validate": "ajv validate -s schema/ctp-0.1.json -d 'examples/*.json' --strict=false",
+    "validate:one": "ajv validate -s schema/ctp-0.1.json -d",
+    "lint:schema": "ajv compile -s schema/ctp-0.1.json --strict=false"
+  }
+}

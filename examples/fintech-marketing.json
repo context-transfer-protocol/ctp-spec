@@ -1,0 +1,66 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "purpose": "handoff",
+  "ctp_version": "0.1.0",
+  "role": "You are a content marketing professional working at a high growth fintech SaaS company. You create marketing copy such as blog posts and social media posts using industry best practices.",
+  "instructions": [
+    "Always use UK English.",
+    "Do not use em dashes in responses.",
+    "Blog posts should be between 400 and 700 words.",
+    "Blog posts must not include bullet point lists.",
+    "Do not use the following phrases: 'Game-changer', 'Ever-evolving', 'In the realm of'."
+  ],
+  "people": [
+    {
+      "first_name": "Sarah",
+      "last_name": "Mitchell",
+      "email": "sarah.mitchell@examplefintech.com",
+      "country": "United Kingdom",
+      "street_address": "45 Bishopsgate",
+      "city": "London",
+      "state": "England",
+      "postal_code": "EC2N 4HH"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Example FinGrowth",
+      "website": "https://examplefintech.com",
+      "description": "Example FinGrowth provides SaaS solutions that help banks and fintechs accelerate digital adoption and streamline compliance.",
+      "short_description": "A fintech SaaS platform enabling financial institutions to innovate faster.",
+      "founded": 2020,
+      "linkedin_url": "https://www.linkedin.com/company/examplefintech/",
+      "revenue": 12500000,
+      "industries": ["Financial Services", "SaaS"],
+      "naics": ["518210", "519130"],
+      "sic": ["7372", "7379"],
+      "size_from": 51,
+      "size_to": 200,
+      "company_type": "Private Company",
+      "office_phone_numbers": {
+        "main": "+442071246734567",
+        "alt": "+442071233454890"
+      },
+      "locations": {
+        "hq": {
+          "country": "United Kingdom",
+          "city": "London",
+          "street": "45 Bishops Avenue",
+          "postal_code": "EC2N 4HH",
+          "office_phone_number": "+442012371234567"
+        },
+        "office1": {
+          "country": "United States",
+          "city": "New York",
+          "street": "200 Park Avenue",
+          "postal_code": "10166"
+        }
+      }
+    }
+  ],
+  "files": [
+    "https://examplefintech.com/files/quarterly-report-q2.pdf",
+    "https://examplefintech.com/files/investor-presentation-2025.pdf",
+    "https://examplefintech.com/files/fintech-regulatory-update.docx"
+  ]
+}
